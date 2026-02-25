@@ -1,73 +1,26 @@
-# React + TypeScript + Vite
+🚀 Landing Page Moderna - React + TypeScript + Tailwind CSS
+Este proyecto consiste en una Landing Page moderna y totalmente responsiva construida siguiendo los estándares de diseño de un reto de Frontend Mentor. El objetivo principal es aplicar buenas prácticas de desarrollo frontend utilizando componentes funcionales en React, tipado estricto con TypeScript y estilos rápidos con Tailwind CSS.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📍 Inspirado en el tutorial de: CodingTube
 
-Currently, two official plugins are available:
+✨ Características Principales
+Diseño Responsivo: Adaptable a dispositivos móviles, tablets y desktops [00:09].
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Validación de Formularios: Sistema de validación de correo electrónico con mensajes de error dinámicos [04:41:08].
 
-## React Compiler
+Interacciones UI: Efectos de Hover y Focus para una mejor experiencia de usuario [00:16].
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Arquitectura Limpia: Organización de componentes reutilizables (Header, Navbar, Hero, etc.) [22:22].
 
-## Expanding the ESLint configuration
+TypeScript: Implementación de interfaces para asegurar la integridad de los datos.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+🛠️ Tecnologías Utilizadas
+React.js: Biblioteca principal para la interfaz de usuario.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+TypeScript: Para un desarrollo más seguro y escalable.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Tailwind CSS: Framework de utilidades para el diseño rápido y personalizado.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Vite: Herramienta de construcción (bundler) para un entorno de desarrollo veloz [03:32].
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Frontend Mentor: Plataforma proveedora del reto de diseño [02:34].
