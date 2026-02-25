@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("./assets/fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf") format("woff2");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("./assets/fonts/Open_Sans/OpenSans-VariableFont_wght.ttf") format("woff2");
+}
+
+:root {
+  --color-Navy-850-: hsl(217, 28%, 15%);
+  --color-Navy-900-: hsl(218, 28%, 13%);
+  --color-Navy-950-: hsl(216, 53%, 9%);
+  --color-Navy-800-: hsl(219, 30%, 18%);
+  --color-Teal-200-: hsl(176, 68%, 64%);
+  --color-Cyan-500-: hsl(198, 60%, 50%);
+  --color-Red-500-: hsl(0, 100%, 63%);
+  --color-White: hsl(0, 0%, 100%);
+
+  --font-Raleway: "Raleway";
+  --font-Open-Sans: "Open Sans";
+}
+
+body {
+  font-family: var(--font-Open-Sans);
+  background-color: var(--color-Navy-900-);
+  color: var(--color-White);
+}
