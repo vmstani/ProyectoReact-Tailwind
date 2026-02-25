@@ -1,5 +1,5 @@
 🚀 Landing Page Moderna - React + TypeScript + Tailwind CSS
-Este proyecto consiste en una Landing Page moderna y totalmente responsiva construida siguiendo los estándares de diseño de un reto de Frontend Mentor. El objetivo principal es aplicar buenas prácticas de desarrollo frontend utilizando componentes funcionales en React, tipado estricto con TypeScript y estilos rápidos con Tailwind CSS.
+-Este proyecto consiste en una Landing Page moderna y totalmente responsiva construida siguiendo los estándares de diseño de un reto de Frontend Mentor. El objetivo principal es aplicar buenas prácticas de desarrollo frontend utilizando componentes funcionales en React, tipado estricto con TypeScript y estilos rápidos con Tailwind CSS.
 
 📍 Inspirado en el tutorial de: CodingTube
 
